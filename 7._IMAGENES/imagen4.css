@@ -1,0 +1,50 @@
+/*reset css: permite que las paginas se vean igual en todos los navegadores*/
+/*aqui comienza el reset css*/
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,form,fieldset{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+table{border-collapse: collapse; border-spacing: 0;}
+td, th, caption {font-weight: normal; text-align: left;}
+img, fieldset {border: 0;}
+ol{padding-left: 1.4em; list-style: decimal;}
+ul{padding-left: 1.4em; list-style: square;}
+q:before, q:after{content: "";}
+/*hasta aqui el reset css*/
+
+#maindiv{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#main{
+    float: right;
+    width: 565px;
+    margin-right: 15px;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+#mydiv h1{
+    margin-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.6em;
+}
+#main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 10px 0 10px 0;
+}
+#main p{
+    margin: 10px 0 10px 0;
+}
+#mainb p{
+    margin-top: 10px;
+}
+#mainb h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}

@@ -15,6 +15,7 @@ body{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     /*margin: 20px auto 0 auto*/
     padding: 15px;
     text-align: justify;
@@ -38,4 +39,21 @@ h2{
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 15px 0 5px 0;
+    overflow: hidden;
+}
+
+.mylateradiv{
+    width: 40%;
+    float: right;
+    background-color: #9cf;
+    border: 1px dashed #009;
+    padding: 10px 20px;
+    margin: 10px;
+    /*margin: 10px 10 20px 10px;*/
+    border-top: 20px solid #009;
+}
+.mylateradiv h2{
+    border: none;
+    margin-top: 0;
+    padding: 0;
 }
