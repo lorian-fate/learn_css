@@ -1,0 +1,66 @@
+
+
+
+body{
+    background-image: url(/imag/vinculos_I_Y_II/images/bg_body.png);
+    background-repeat: repeat-x;
+}
+
+#maindiv{
+    width: 820px;
+    background: transparent url(/imag/vinculos_I_Y_II/images/bg_banner.jpg) no-repeat;
+    margin: 0 auto;
+    margin-top: -6px;
+    padding: 0 10px;
+    border: 2px solid gray;
+}
+
+#maindiv h1 strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    color: yellow;
+    margin-right: -1.10em;
+    line-height: 1em;
+}
+#maindiv h1{
+    margin-top: 9px;
+    color: blue;
+    font-size: 4em;
+}
+#maindiv h2{
+    border-bottom: 2px solid gray;
+    margin-top: -30px;
+}
+#maindiv p:first-line{
+    font-weight: bold;
+}
+#maindiv p strong{
+    color: blue;
+}
+
+#maindiv .byline{
+    margin: -10px 0 0 40px;
+}
+
+#maindiv #resources{
+    float: right;
+    background-color: antiquewhite;
+    padding: 10px 15px 0 20px;
+    margin-left: 20px;
+}
+#maindiv #resources h3{
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+#maindiv p{
+    font-size: 0.9em;
+    line-height: 150%;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+#maindiv h3{
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+}

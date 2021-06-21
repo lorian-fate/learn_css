@@ -1,0 +1,100 @@
+/*reset css: permite que las paginas se vean igual en todos los navegadores*/
+/*aqui comienza el reset css*/
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,form,fieldset{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+table{border-collapse: collapse; border-spacing: 0;}
+td, th, caption {font-weight: normal; text-align: left;}
+img, fieldset {border: 0;}
+ol{padding-left: 1.4em; list-style: decimal;}
+ul{padding-left: 1.4em; list-style: square;}
+q:before, q:after{content: "";}
+/*hasta aqui el reset css*/
+
+#maindiv{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#main{
+    float: right;
+    width: 565px;
+    margin-right: 15px;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+#mydiv h1{
+    margin-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.6em;
+}
+#main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 10px 0 10px 0;
+}
+#main p{
+    margin: 10px 0 10px 0;
+}
+
+#mainb h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    padding-top: 80px;
+}
+#mainb{
+    text-align: justify;
+}
+body{
+    background-image: url(/imag/images/fondo_web.png);
+    background-repeat: repeat-x;
+}
+#maindiv{
+    background-color: aliceblue;
+    background-image: url(/imag/images/fondo_pr.jpg);
+    background-repeat: no-repeat;
+}
+#mydiv{
+    margin-top: 54px;
+}
+#mainb{
+    width: 340px;
+    margin-top: 115px;
+    background-image: url(/imag/images/perg_medio.jpg);
+    background-repeat: repeat-y;    
+
+}
+#main h2{
+    background-image: url(/imag/images/subrayado.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 8px;
+}
+#mainb li{
+    list-style: none;
+    background-image: url(/imag/images/vineta.png);
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    background-position: 0 4px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+#mainb h2{
+    background-image: url(/imag/images/perg-sup.jpg);
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+#mainb .final{
+    background: url(/imag/images/perg_inf.jpg) no-repeat center bottom;
+    padding-bottom: 70px;
+    
+    
+}
