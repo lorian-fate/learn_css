@@ -14,7 +14,9 @@
 
 .Selectore:
     De etiqueta
-    De clase
-    De ID
-    De grupo
-    Universal
+    De clase: comienzan con un punto .
+    De ID: comienzan con una almuadilla #
+    De grupo: aplicar estilos a varios selectores. h1, h2, p, address{}
+    Universal: aplciar estilos a todos los elementos
+
+.Selectores descendientes
