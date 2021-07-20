@@ -27,3 +27,32 @@
     .hover: cuando se pasa el ratón por encima
     .active: cuanto se está haciendo click
     el orden debe ser siempre el especificado
+
+jerarquia de selectores:
+    de etiqueta: 1pto
+    de clase: 10pto
+    de id: 100pto
+    inline: 1000pto
+
+
+===============================================================
+Reset css:
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+ol{
+    margin-left: 1.4em;
+    list-style: decimal;
+}
+ul{
+    margin-left: 1.4em;
+    list-style: decimal;
+}
+img{
+    border: 0;
+}
+/*Este es el reset css*/
+==================================================================
