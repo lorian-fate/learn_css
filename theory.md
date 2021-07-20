@@ -27,5 +27,3 @@
     .hover: cuando se pasa el ratón por encima
     .active: cuanto se está haciendo click
     el orden debe ser siempre el especificado
-
-ultimo video 7
