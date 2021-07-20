@@ -38,9 +38,14 @@ h1, h2, h3{
     color: rgb(111, 128, 15);
 }
 
-#myfirst #firstpara{
+/*#myfirst #firstpara{
     color: rgb(255, 187, 61); 
     font-size: 1.08em;
+}*/
+h1+p{
+    color: rgb(255, 187, 61); 
+    font-size: 1.08em;
+
 }
 
 #note{
