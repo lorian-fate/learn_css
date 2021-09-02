@@ -1,0 +1,15 @@
+
+
+body{
+    background: url("/css_by_a_book/practicas/login/mylog.jpeg");
+    background-size: cover;
+}
+
+.mydiv{
+    background-color: rgba(0, 140, 255, 0.349);
+    width: 400px;
+    height: 400px;
+    margin-left: 1100px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
