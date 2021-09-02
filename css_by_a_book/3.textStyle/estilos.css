@@ -1,0 +1,48 @@
+
+body{
+    font-size: 1.5em;
+}
+
+.azul{
+    color: Blue;
+}
+.azul_oscuro{
+    color: darkblue;
+}
+
+.importante{
+    text-decoration: underline dashed;
+}
+
+/*.emfasis{
+    text-emphasis-style: triangle;
+    text-emphasis-color: blue;
+}*/
+
+.sombreado{
+    text-transform: uppercase;
+    text-shadow: darkcyan 25px 10px 5px;
+}
+
+.palabra_espacios{
+    word-spacing: 10px;
+}
+
+.letra_espacio {
+    letter-spacing: -2px;
+}
+
+.blancos_pre{
+    white-space: pre-line;
+}
+
+.parrafo_1{
+    width: 700px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: .9em;
+}
+
+.parrafo_3{
+    text-overflow: ellipsis;
+}

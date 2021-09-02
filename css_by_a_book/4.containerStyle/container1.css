@@ -1,0 +1,9 @@
+
+
+.posicion_interna{
+    list-style-position: inside;
+}
+
+.posicion_externa{
+    list-style-position: outside;
+}

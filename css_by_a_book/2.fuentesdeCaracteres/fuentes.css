@@ -1,0 +1,12 @@
+
+
+p.parrafo_1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p.parrafo_2 {
+    font: italic bolder 1.2em "Times New Roman", Times, serif;
+}

@@ -1,0 +1,21 @@
+
+
+.lista_circulo{
+    list-style-type: circle;
+}
+
+.lista_cuadrado{
+    list-style-type: square;
+}
+
+.lista_alfa{
+    list-style-type: lower-alpha;
+}
+
+.lista_romana{
+    list-style-type: upper-roman;
+}
+
+.lista_imagen{
+    list-style-image: url(/css_by_a_book/all_images/flower2.jpg);
+}
