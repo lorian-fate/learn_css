@@ -1,0 +1,46 @@
+
+/* LOS BORDERS DE LAS CELDAS*/
+
+/*#resultados{
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+#resultados th, #resultados td{
+    border: 1px solid #333;
+    
+}/*
+
+
+
+/* EL ESPACIO INTERNO DE LAS CELDAS*/
+/*#resultados th, #resultados td{
+    border: 1px solid #333;
+    padding: 5px;
+}^/
+
+
+/*LAS CELDAS VACIAS*/
+/*#resultados{
+    border: 1px solid #333;
+    border-collapse: separate;
+}
+#resultados th, #resultados td{
+    border: 1px solid #333;
+    padding: 5px;
+    background-color: #eee;
+    empty-cells: hide;
+}*/
+
+
+/*EL TITULO DE LA TABLA*/
+#resultados{
+    border: 1px solid #333;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+#resultados th, #resultados td{
+    border: 1px solid #333;
+}
+
+

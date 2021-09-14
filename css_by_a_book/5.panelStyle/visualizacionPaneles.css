@@ -1,0 +1,97 @@
+
+/*CAMBIAR EL TIPO DE VISUALIZACION*/
+/*#navbar li{
+    list-style: none;
+    display: inline-block;
+    width: 75px;
+    border: 1px solid #000;
+    margin-right: 10;
+    padding: 3px;
+    background-color: #eee;
+    text-align: center;
+}
+#navbar a{
+    text-decoration: none;
+    color: #000;
+}*/
+
+
+
+/*
+los margenes externos
+EL MARGEN GLOBAL Y LOS MARGENES DIFERENCIADOS
+*/
+/*#p-uno{
+    margin: 30;
+}
+#p-dos{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}*/
+
+
+
+/*los bordes*/
+/*#p-uno{
+    border: solid 3px #aaa;
+}
+#p-dos{
+    border-top: 3px dashed darkblue;
+    border-right: 5px dotted darkgreen;
+    border-bottom: 4px solid crimson;
+    border-left: 10px double purple;
+}*/
+
+
+
+/*los rellenos internos*/
+/*p{
+    border: 2px solid black;
+}
+#p-uno{
+    padding: 10px;
+}
+#p-dos{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}*/
+
+
+
+/*
+la longitud y la altura de los paneles
+LAS DIMENSIONES DEL CONTENIDO
+*/
+/*p{
+    border: 2px solid black;
+}
+#p-uno{
+    width: 600px;
+    height: 150px;
+}
+#p-dos{
+    width: 400px;
+    height: 200px;
+}*/
+
+
+
+/*LAS DIMENSIONES DE VISUALIZACION*/
+#p-uno{
+    box-sizing: content-box;
+    width: 600px;
+    height: 180px;
+    padding: 20px;
+    border: 10px solid black;
+}
+#p-dos{
+    box-sizing: border-box;
+    width: 600px;
+    height: 210px;
+    padding: 20px;
+    border: 10px solid black;
+}

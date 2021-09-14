@@ -1,0 +1,52 @@
+
+/*LOS ESTADOS ACTIVO E INACTIVO DE LOS OBJETOS*/
+/*:enabled{
+    background-color: lightgreen;
+}
+:disabled{
+    background-color: lightcoral;
+}
+#hombre:checked+label, #mujer:checked+label{
+    font-style: italic;
+}
+#acuerdo:checked+label{
+    background-color: lightblue;
+    font-weight: bold;
+}*/
+
+
+
+/*LOS CAMPOS OBLIGATORIOS*/
+/*input:required{
+    background-color: lightcoral;
+}
+input:optional{
+    background-color: lightyellow;
+}
+#envio, #cancelar{
+    background: none;
+}*/
+
+
+
+/*LA LONGITUD DE LAS ETIQUETAS Y DE LOS CAMPOS*/
+label{
+    display: inline-block;
+    width: 120px;
+}
+input{
+    width: 200px;
+}
+#envio, #cancelar{
+    width: 100px;
+}
+
+
+/*FORMATEAR EL FOCO DE LOS CAMPOS*/
+input:focus{
+    outline: solid 3px lightgreen;
+    outline-offset: 2px;
+}
+
+
+

@@ -5,11 +5,38 @@ body{
     background-size: cover;
 }
 
-.mydiv{
-    background-color: rgba(0, 140, 255, 0.349);
+.mymaindiv{
+    background-color: rgba(35, 26, 163, 0.267);
     width: 400px;
     height: 400px;
     margin-left: 1100px;
     margin-top: 150px;
     border-radius: 5px;
 }
+
+.myform{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.mybutton{
+    width: 209px;
+    height: 30px;
+    background-color: rgba(35, 26, 163, 0);
+    color: white;
+    border: 2px solid rgb(255, 123, 0);
+    border-radius: 15px;
+
+}
+
+#myname{
+    width: 200px;
+    height: 30px;
+    border: 3px solid rgb(255, 123, 0);
+}
+#mypassword{
+    width: 200px;
+    height: 30px;
+    border: 3px solid rgb(255, 123, 0);
+}
+
