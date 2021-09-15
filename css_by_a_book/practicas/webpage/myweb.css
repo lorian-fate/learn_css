@@ -6,12 +6,14 @@ body{
 }
 
 .myhead{
-    background-color: darkred;
+    /*background-color: darkred;*/
+    background: linear-gradient(to left, white, darkred, yellow);
     height: 60px;
 }
 
 .mynav{
-    background-color: darkred;
+    /*background-color: darkred;*/
+    background: linear-gradient(to right, brown, darkgray, darkblue);
     height: 60px;
     margin-top: 10px;
 }
@@ -19,38 +21,71 @@ body{
 .mynav2{
     float: left;
     margin-top: 10px;
-    background-color: darkred;
+    /*background-color: darkred;*/
+    background: linear-gradient(to bottom, darkgray, rgb(255, 251, 34), brown);
     width: 300px;
-    height: 550px;
+    height: 700px;
 }
 
 .mysection{
     float: center;
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
+    background: linear-gradient(to top, green, purple, red);
     margin-left: 310px;
-    margin-top: -5px;
-    width: 900px;
-    height: 270px;;
+    margin-top: 10px;
+    width: 870px;
+    height: 250px;
+    padding: 95px 0 0 10px;
 }
 
 .mysection2{
     float: center;
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
+    background: linear-gradient(to top, green, purple, red);
     margin-left: 310px;
-    margin-top: -6px;
-    width: 900px;
-    height: 270px;
+    margin-top: 10px;
+    width: 870px;
+    height: 250px;
+    padding: 95px 0 0 10px;
+    
 }
 
 .myaside{
     float: right;
-    background-color: darkred;
-    margin-top: -550px;
+    /*background-color: darkred;*/
+    background: linear-gradient(to bottom, darkgray, rgb(255, 251, 34), brown);
+    margin-top: -700px;
     width: 300px;
-    height: 550px
+    height: 700px
 }
 
 .myfooter{
-    background-color: darkred;
+    /*background-color: darkred;*/
+    background: linear-gradient(to left, white, darkred, yellow);
     height: 60px;
+    margin-top: 10px;
 }
+
+#myarticle, #myarticle2{
+    /*background-color: darkblue;*/
+    background: linear-gradient(to top, darkgreen, darkblue, white);
+    width: 550px;
+    height: 240px;
+}
+#myaside{
+    /*background-color: rgb(4, 4, 179);*/
+    background: radial-gradient(ellipse, rgb(255, 162, 162), blue, white);
+    margin-left: 560px;
+    margin-top: -240px;
+    width: 300px;
+    height: 240px;
+}
+#myaside2{
+    /*background-color: rgb(4, 4, 179);*/
+    background: radial-gradient(ellipse, rgb(255, 162, 162), blue, white);
+    width: 300px;
+    height: 240px;
+    margin-left: 560px;
+    margin-top: -240px;
+}
+
