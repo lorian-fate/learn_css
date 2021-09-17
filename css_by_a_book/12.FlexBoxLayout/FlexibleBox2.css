@@ -1,0 +1,92 @@
+
+/*
+ALINEAR LOS ELEMENTOS HIJOS FLEXIBLES
+Los alineamientos en el eje principla horizontal
+*/
+/*#contenedor-lista{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 400px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}*/
+#contenedor-lista li{
+    list-style: none;
+    border: 1px solid #000;
+    padding: 5px;
+    background-color: white;
+}
+/*Los alineamientos en el eje principla vertical*/
+/*#contenedor-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    width: 100px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}*/
+/*Los alineamientos en el eje secundario vertical*/
+/*#contenedor-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}
+.cuarto{
+    font-size: 1.5em;
+}
+.quinto{
+    font-size: .6em;
+}*/
+/*Los alineamientos en el eje secundario horizontal*/
+/*#contenedor-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}*/
+/*Los alineamientos y el salto de linea*/
+#contenedor-lista{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}

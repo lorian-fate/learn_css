@@ -1,0 +1,95 @@
+
+/*LOS CONTENEDORES FLEXIBLES*/
+/*#contenedor1{
+    display: flex;
+    width: 1500px;
+    border: 1px solid #000;
+}
+#contenedor2{
+    margin-top: 50px;
+    display: inline-flex;
+    width: 1500px;
+    border: 1px solid #000;
+}
+p{
+    margin: 0;
+}
+.p1{
+    background-color: antiquewhite;
+}
+.p2{
+    background-color: azure;
+}
+.p3{
+    background-color: cornsilk;
+}
+.p4{
+    background-color: burlywood
+}*/
+
+
+
+/*EL FLUJO DE LOS ELEMENTOS*/
+/*Definir la dirección*/
+/*#contenedor1{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    width: 1500px;
+    border: 1px solid #000;
+}
+p{
+    margin: 0;
+}
+.p1{
+    background-color: antiquewhite;
+}
+.p2{
+    background-color: burlywood;
+}
+.p3{
+    background-color: azure;
+}*/
+/*Controlar el flujo de los elementos hijos en fila*/
+#contenedor-lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap; Es una simplificacion de las dos anteriores;
+    width: 300px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}
+#contenedor-lista li{
+    list-style: none;
+    border: 1px solid #000;
+    background-color: white;
+    padding: 5px;
+}
+/*Cambiar el flujo de los elementos hijos en bloque*/
+#contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #000;
+    width: 1500px;
+    background-color: #eee;
+}
+p{
+    margin: 0;
+    width: 500px;
+}
+.p1{
+    background-color: antiquewhite;
+}
+.p2{
+    background-color: cornsilk;
+}
+.p3{
+    background-color: azure;
+}
+.p4{
+    background-color: burlywood;
+}
