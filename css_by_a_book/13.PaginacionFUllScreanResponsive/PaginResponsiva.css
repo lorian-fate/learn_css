@@ -21,7 +21,7 @@ header h1, footer p{
     text-align: center;
 }
 aside, nav{
-    width: 50em;
+    width: 80em;
 }
 aside{
     background-color: bisque

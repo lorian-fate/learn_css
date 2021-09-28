@@ -1,0 +1,51 @@
+
+
+/* CREAR UN DESPLAZAMIENTO INFINITO */
+#panel{
+    background-color: red;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkblue;
+    /*animation-name: panel-rojo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;*/
+    animation: panel-rojo 5s infinite; /*sintaxis abreviada*/
+}
+
+@keyframes panel-rojo{
+    0%{
+        top: 10px;
+    }
+    50%{
+        top: 500px;
+    }
+    100%{
+        top: 10px;
+    }
+}
+
+
+
+
+/* CREAR UN FORMULARION ANIMADO */
+#inscripcion{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    animation: sombreado ease-in infinite alternate 500ms;
+}
+@keyframes sombreado{
+    0%{
+        box-shadow: 0 0 15px red;
+    }
+    100%{
+        box-shadow: 0 015px yellow;
+    }
+}
+
+
+
+
+
