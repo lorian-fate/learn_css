@@ -10,3 +10,5 @@
 
         3._ https://www.arkaitzgarro.com/css3/capitulo-13.html#ejercicios-finales
         4._ 
+3._ Plantillas para practicar:
+    1._ https://luisfm.es/10-plantillas-gratis-html5-y-css3/

@@ -1,0 +1,11 @@
+
+
+#nature img{
+    float: left;
+    margin-right: 20px;
+}
+
+#flower img{
+    float: right;
+    margin-left: 20px;
+}

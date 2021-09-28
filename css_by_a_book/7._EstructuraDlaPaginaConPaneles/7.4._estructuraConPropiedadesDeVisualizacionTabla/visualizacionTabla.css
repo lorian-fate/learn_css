@@ -1,0 +1,29 @@
+
+
+#tabla{
+    display: table;
+    margin: auto;
+}
+#encabezado{
+    display: table-header-group;
+}
+#pie-de-pagina{
+    display: table-footer-group;
+}
+#encabezado,  #pie-de-pagina{
+    background-color: lightyellow;
+    text-align: center;
+}
+.celda1, .celda2{
+    display: table-cell;
+}
+.celda1{
+    width: 900px;
+    background-color: lightblue;
+    padding: 10px;
+}
+.celda2{
+    width: 500px;
+    background-color: lightcoral;
+    padding: 10px;
+}

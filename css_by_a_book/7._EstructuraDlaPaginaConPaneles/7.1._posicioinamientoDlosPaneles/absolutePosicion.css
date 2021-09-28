@@ -1,0 +1,24 @@
+
+
+
+
+#especial{
+    position: absolute;
+    border: 5px solid #000;
+    background-color: #eee;
+    width: 400px;
+    left: 75px;
+    top: 150px;
+}
+#especial p{
+    margin: 0;
+}
+#imagen{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+#flower{
+    position: absolute;
+    
+}
