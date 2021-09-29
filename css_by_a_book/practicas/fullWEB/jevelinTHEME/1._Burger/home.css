@@ -1,0 +1,89 @@
+
+
+#mydiv{
+    background-image: url("/css_by_a_book/practicas/fullWEB/jevelinTHEME/1._Burger/images/hand.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1100px;
+    width: 101%;
+    margin: -115px -10px 0 -8px;
+}
+
+#myheader{
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 100%;
+}
+#myheader{
+    position: fixed;
+    top: 20px;
+    left: -1px;
+}
+#headerdiv ul{
+    display: flex;
+    justify-content: center;
+}
+#headerdiv ul li i{
+    color: white;
+}
+#myheader div ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#myheader div ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-right: 30px;
+}
+#myheader div h1{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.2em;   
+}
+#navbar{
+    position: fixed;
+    top: 150px;
+    right: 15px;
+    width: 60px;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 0;
+}
+#navbar ul li a img{
+    width: 25px;
+    height: 25px;
+}
+#navbar ul li{
+    list-style: none;
+    margin-top: 35px;
+}
+#navbar ul{
+    position: relative;
+    top: -20px;
+    right: 23px;
+}
+#navbar ul li.last-child{
+    margin-bottom: -20px;
+}
+#navbar ul li.showcase ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -15px;
+    height: 70px;
+    border-radius: 10px;
+    transition-property: left;
+    transition-duration: 2s;
+}
+#navbar ul li.showcase ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+#navbar ul li:hover ul{
+    display: block;
+}

@@ -12,3 +12,4 @@
         4._ 
 3._ Plantillas para practicar:
     1._ https://luisfm.es/10-plantillas-gratis-html5-y-css3/
+    2._ https://colorlib.com/wp/beautiful-website-templates/#html-templates
