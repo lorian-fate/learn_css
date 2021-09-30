@@ -1,0 +1,23 @@
+
+
+
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 800px;
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #eee;
+}
+p{
+    margin: 0;
+    border: 1px solid #000;
+    background-color: white;
+    text-align: justify;
+    padding: 5px;
+}
+
+
+
+

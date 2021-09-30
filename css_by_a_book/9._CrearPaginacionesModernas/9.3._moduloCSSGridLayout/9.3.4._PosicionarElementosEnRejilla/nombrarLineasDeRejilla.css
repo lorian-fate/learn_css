@@ -1,0 +1,13 @@
+
+
+
+
+
+#contenedor{
+    grid-template-columns: [linea-vert-izquierda] 1fr [line-vert-central] 250px
+                            [linea-vert-derecha];
+    gap: 20px;
+}
+header, footer{
+    grid-column: linea-vert-izquierda/linea-vert-derecha;
+}

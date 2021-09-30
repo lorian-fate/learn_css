@@ -1,0 +1,17 @@
+
+
+
+#contenedor{
+    display: grid;
+    width: 900px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 125px 150px;
+    grid-template-rows: 25% 25% 50%;
+    grid-template: 25% 25% 50% / 60% 40%; /*sintaxis abreviada*/
+    height: 600px;
+    border: 1px solid #000;
+}
+
+
+
+

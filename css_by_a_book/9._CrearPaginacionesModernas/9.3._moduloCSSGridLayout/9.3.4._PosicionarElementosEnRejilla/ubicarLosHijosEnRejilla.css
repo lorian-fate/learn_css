@@ -1,0 +1,19 @@
+
+
+
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-auto-flow: row;
+    grid-auto-rows: 50px;
+    width: 450px;
+    border: 1px solid #000;
+}
+p{
+    margin: 0;
+}
+
+
+
+
+

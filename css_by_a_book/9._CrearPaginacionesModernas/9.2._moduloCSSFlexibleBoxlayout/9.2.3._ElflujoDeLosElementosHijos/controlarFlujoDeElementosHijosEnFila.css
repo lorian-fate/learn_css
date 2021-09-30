@@ -1,0 +1,18 @@
+
+
+#lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/*Esto permite que los hijos pasen a la siguiente linea*/
+    flex-flow: row-reverse wrap;/*sintaxis abreviada de las dos anteriores*/
+    width: 300px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}
+#lista li{
+    list-style: none;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #000;
+}

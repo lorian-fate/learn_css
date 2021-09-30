@@ -1,0 +1,37 @@
+
+
+
+#contenedor-lista{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #eee;
+}
+#contenedor-lista li{
+    list-style: none;
+    padding: 5px;
+    flex-basis: 100px;
+    border: 1px solid #000;
+    background-color: white;
+}
+#contenedor-list li.uno{
+    flex-grow: 1;
+    background-color: antiquewhite
+}
+#contenedor-lista li.tres{
+    flex-shrink: 4;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+

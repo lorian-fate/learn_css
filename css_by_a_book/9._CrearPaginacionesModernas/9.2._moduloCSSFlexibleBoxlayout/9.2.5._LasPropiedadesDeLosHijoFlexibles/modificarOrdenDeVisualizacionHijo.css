@@ -1,0 +1,27 @@
+
+
+
+
+#contenedor-lista{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 300px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}
+#contenedor-lista li{
+    list-style: none;
+    border: 1px solid #000;
+    background-color: white;
+    padding: 5px;
+}
+#contenedor-lista li.dos{
+    order: -1;
+}
+.cuatro{
+    order: 1;
+}
+
+

@@ -1,0 +1,26 @@
+
+
+
+#contenedor1{
+    display: flex;
+    flex-flow: row wrap;
+    width: 600px;
+    border: 1px solid #000;
+    background-color: #eee;
+}
+p{
+    margin: 0;
+    width: 200px;
+}
+.p1{
+    background-color: antiquewhite;
+}
+.p2{
+    background-color: azure;
+}
+.p3{
+    background-color: cornsilk;
+}
+.p4{
+    background-color: burlywood;
+}

@@ -1,0 +1,16 @@
+
+
+
+#contenedor{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 800px;
+    border: 1px solid #000;
+}
+p{
+    margin: 0;
+}
+
+
+
+

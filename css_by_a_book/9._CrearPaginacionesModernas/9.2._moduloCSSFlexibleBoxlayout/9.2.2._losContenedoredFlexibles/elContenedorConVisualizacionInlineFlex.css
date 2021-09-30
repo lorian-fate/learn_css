@@ -1,0 +1,25 @@
+
+
+
+#contenedor2{
+    display: inline-flex;
+    width: 800px;
+    border: 1px solid #000;
+}
+p{
+    margin: 0;
+}
+.p1{
+    background-color: antiquewhite;
+}
+.p2{
+    background-color: azure;
+}
+.p3{
+    background-color: burlywood;
+}
+.p4{
+    background-color: cornsilk;
+}
+
+

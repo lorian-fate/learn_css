@@ -1,0 +1,24 @@
+
+
+
+#contenedor-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+}
+#contenedor-lista li{
+    list-style: none;
+    border: 1px solid #000;
+    background-color: white;
+    padding: 5px;
+}
+
+
