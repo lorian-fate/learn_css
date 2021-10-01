@@ -1,0 +1,26 @@
+
+
+
+#burger{
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    top: 34%;
+    left: 22.5%;
+}
+#burger img{
+    width: 840px;
+    height: 840px;
+}
+#text-back{
+    position: relative;
+    top: 24%;
+}
+#text-back h3, #text-back h1{
+    color: #fff;
+    text-align: center;
+}
+#text-back h3{
+    font-size: 4em;
+    font-family: ;
+}

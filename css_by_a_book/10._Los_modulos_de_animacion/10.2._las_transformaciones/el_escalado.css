@@ -1,0 +1,29 @@
+
+
+
+#init{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 0);
+    border: 3px solid #000;
+}
+#transformation{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(80, 235, 255, 0.705);
+    border: 3px solid #000;
+}
+.escale{
+    transform: scale(1.5, 0.5);
+    transform: scale(1.5)
+}
+
+
+
+

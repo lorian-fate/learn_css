@@ -1,0 +1,41 @@
+
+
+
+#translate{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    /*transition-property: left;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 2s;
+    transition: left 2s ease-out;*//*sintaxis abreviada*/
+}
+img{
+    width: 300px;
+}
+#translate-2{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+#translate{
+    transition: left 1s ease-out;
+}
+#translate-2:hover{
+    left: 500px;
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

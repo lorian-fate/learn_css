@@ -1,0 +1,31 @@
+
+
+
+#panel{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: panel-rojo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation: panel-rojo 3s infinite; /*sintaxis abreviada*/
+}
+@keyframes panel-rojo {
+    0%{
+        left: 10px;
+    }
+    50%{
+        left: 1400px;
+    }
+    100%{
+        left: 10px;
+    }
+}
+
+
+
+
+
+
+

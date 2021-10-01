@@ -1,0 +1,19 @@
+
+
+
+#inscription{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    animation: sombreado ease-in infinite alternate 500ms;
+}
+@keyframes sombreado {
+    0%{
+        box-shadow: 0 0 15px red;
+    }
+    100%{
+        box-shadow: 0 0 15px yellow;
+    }
+}
+

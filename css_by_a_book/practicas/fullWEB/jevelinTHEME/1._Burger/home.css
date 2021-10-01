@@ -1,13 +1,15 @@
 
 
-#mydiv{
-    background-image: url("/css_by_a_book/practicas/fullWEB/jevelinTHEME/1._Burger/images/hand.jpg");
+body{
+    margin: 0;
+}
+
+#mymain{
+    background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url("/css_by_a_book/practicas/fullWEB/jevelinTHEME/1._Burger/images/hand.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 1100px;
-    width: 101%;
-    margin: -115px -10px 0 -8px;
+    height: 120vh;
+    width: 100%;
 }
 
 #myheader{
@@ -45,6 +47,8 @@
     font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.2em;   
 }
+
+
 #navbar{
     position: fixed;
     top: 150px;
@@ -52,38 +56,106 @@
     width: 60px;
     background-color: white;
     border-radius: 8px;
-    padding-top: 0;
 }
+#navbar ul#mylist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 350px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 8px;
+}
+
 #navbar ul li a img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 #navbar ul li{
     list-style: none;
-    margin-top: 35px;
+
 }
-#navbar ul{
-    position: relative;
-    top: -20px;
-    right: 23px;
-}
-#navbar ul li.last-child{
-    margin-bottom: -20px;
-}
-#navbar ul li.showcase ul{
-    display: none;
+
+#navbar ul li.showcase .myshowcase,
+#navbar ul li.showcase .mydemo,
+#navbar ul li.showcase .mypurchase,
+#navbar ul li.showcase .myquestion,
+#navbar ul li.showcase .mysupport,
+#navbar ul li.showcase .myask{
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.884);
     position: absolute;
-    background-color: white;
-    top: -15px;
-    height: 70px;
+    z-index: -1;
     border-radius: 10px;
-    transition-property: left;
-    transition-duration: 2s;
+    transform: translateX(2em);
+    transition: all 0.3s ease-in-out 0s;
 }
-#navbar ul li.showcase ul li a{
+
+#navbar ul li.showcase .myshowcase{
+    top: 0;
+    right: 100%;
+    width: 120px;
+    height: 63px;
+}
+#navbar ul li.showcase .mydemo{
+    top: 63px;
+    right: 100%;
+    height: 64px;
+    width: 150px;
+}
+#navbar ul li.showcase .mypurchase{
+    top: 127px;
+    right: 100%;
+    height: 64px;
+    width: 180px;
+}
+#navbar ul li.showcase .myquestion{
+    top: 191px;
+    right: 100%;
+    height: 63px;
+    width: 210px;
+}
+#navbar ul li.showcase .mysupport{
+    top: 254px;
+    right: 100%;
+    height: 63px;
+    width: 150px;
+}
+#navbar ul li.showcase .myask{
+    top: 317px;
+    right: 100%;
+    height: 63px;
+    width: 250px;
+}
+
+
+.myshowcase a,
+.mydemo a,
+.mypurchase a,
+.myquestion a,
+.mysupport a,
+.myask a{
     text-decoration: none;
-    text-align: center;
+    color: #000;
+    position: absolute;
+    font-size: .8em;
+    top: 25px;
+    left: 26%;
 }
-#navbar ul li:hover ul{
-    display: block;
+
+#navbar ul li.showcase:hover .myshowcase,
+#navbar ul li.showcase:hover .mydemo,
+#navbar ul li.showcase:hover .mypurchase,
+#navbar ul li.showcase:hover .myquestion,
+#navbar ul li.showcase:hover .mysupport,
+#navbar ul li.showcase:hover .myask{
+    visibility: visible;
+    transform: translateX(0%);
+    transition-delay: 0s;
+}
+
+#navbar ul li a img:hover{
+    border: 2px solid rgb(0, 132, 255);
 }

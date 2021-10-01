@@ -1,0 +1,15 @@
+
+
+
+#init, #transformation{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+img{
+    width: 250px;
+}
+.unshape-multi{
+    transform: scale(.7) rotate(30deg);
+}
+
